@@ -1,2 +1,2 @@
 # Trivial
-Esta descripcin está bien hecha.
+Esta descripción está bien hecha.
