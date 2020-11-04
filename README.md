@@ -1,2 +1,2 @@
 # Trivial
-Práctica 
+Esta descripcin está bien hecha.
