@@ -44,18 +44,19 @@ public class Clase {
 
 			if (progreso == 4) {
 				pregunta = "En una partida en la que sólo quedan los dos reyes: \n"
-						+ "Uno de ellos se encuentra en la fila donde empezó la partida, próxima al borde del tablero, por su lado del mismo. \n"
+						+ "Uno de ellos se encuentra en la fila donde empezó la partida, próxima al borde del tablero. \n"
+						+ "Además, este rey no está en ninguna esquina."
 						+ "¿Cuántos peones necesitas como mínimo para tener la oportunidad de dar jaque mate *sólo con peones* al rey que está solo? \n"
-						+ "  _ _ _ _ _ _ _ _  \n"
-						+ "H|_|_|_|_|_|_|_|_| \n"
-						+ "G|_|_|_|_|_|_|_|_| \n"
-						+ "F|_|_|_|_|_|_|_|_| \n"
-						+ "E|_|_|_|_|_|_|_|_| \n"
-						+ "D|_|_|_|_|_|_|_|_| \n"
-						+ "C|_|_|_|_|_|_|_|_| \n"
-						+ "B|_|_|_|_|_|_|_|_| \n"
-						+ "A|_|_|_|_|_|_|_|_| \n"
-						+ "  1 2 3 4 5 6 7 8  \n";
+						+ "  _______________  \n"
+						+ "8|_|· |·|·|· |·|· |_| \n"
+						+ "7|_|_ |_|_|_|_|_|_| \n"
+						+ "6|_|_ |_|_|_|_|_|_| \n"
+						+ "5|_|_ |_|_|_|_|_|_| \n"
+						+ "4|_|_ |_|_|_|_|_|_| \n"
+						+ "3|_|_ |_|_|_|_|_|_| \n"
+						+ "2|_|_ |_|_|_|_|_|_| \n"
+						+ "1|_|_|_|R|_|_|_|_| \n"
+						+ "  A B C D E F G H  \n";
 				
 /*				+ "· # # # # # # ·\n"
 				+ "· · · · · · · ·\n"
@@ -67,7 +68,7 @@ public class Clase {
 				+ "· · · · · · · ·"; */
 				
 				respuesta = JOptionPane.showInputDialog("Pregunta " + progreso + "/5 \n" + pregunta);
-				if (respuesta.matches("64") || respuesta.matches("sesenta y cuatro")) {
+				if (respuesta.matches("3") || respuesta.matches("tres")) {
 					acierto = true;
 				}
 			} else
