@@ -84,7 +84,7 @@ public class Clase {
 			if (acierto == true) {
 				puntos += 1;
 			} 
-		} 
+		}  
 		System.out.println("Tu puntuación es de: ¡" + puntos + " de 4 puntos!");
 	}
 }
